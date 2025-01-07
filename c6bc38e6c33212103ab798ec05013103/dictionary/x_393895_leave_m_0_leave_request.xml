@@ -1,3 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="fde40962c37212103ab798ec050131c7" extends="task" label="Leave Request" max_length="40" name="x_393895_leave_m_0_leave_request" type="collection"/>
+    <element db_object_id="fde40962c37212103ab798ec050131c7" extends="task" label="Leave Request" max_length="40" name="x_393895_leave_m_0_leave_request" type="collection">
+        <element label="Leave start date" max_length="40" name="leave_start_date" type="glide_date"/>
+        <element label="Justification" max_length="500" name="justification" type="string"/>
+        <element choice="3" default="vacation" label="Leave type" max_length="40" name="leave_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sickness" sequence="1" value="sickness"/>
+                <element inactive_on_update="false" label="Vacation" sequence="0" value="vacation"/>
+            </choice>
+        </element>
+        <element label="Leave end date" max_length="40" name="leave_end_date" type="glide_date"/>
+    </element>
 </database>
