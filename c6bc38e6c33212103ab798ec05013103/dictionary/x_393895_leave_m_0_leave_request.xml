@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fde40962c37212103ab798ec050131c7" extends="task" label="Leave Request" max_length="40" name="x_393895_leave_m_0_leave_request" type="collection"/>
+</database>
