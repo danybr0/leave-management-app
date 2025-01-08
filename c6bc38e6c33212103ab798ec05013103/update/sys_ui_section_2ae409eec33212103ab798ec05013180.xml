@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="2ae409eec33212103ab798ec05013180" sys_domain="global" table="x_393895_leave_m_0_leave_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>emily.johnson</sys_created_by>
+            <sys_created_on>2025-01-08 11:57:42</sys_created_on>
+            <sys_id>b2d9369cc38f12103ab798ec050131b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_393895_leave_m_0_leave_request" sys_domain="global" view="Default view">2ae409eec33212103ab798ec05013180</sys_ui_section>
+            <sys_updated_by>emily.johnson</sys_updated_by>
+            <sys_updated_on>2025-01-08 11:57:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>1</position>
+            <sys_created_by>emily.johnson</sys_created_by>
+            <sys_created_on>2025-01-08 11:57:42</sys_created_on>
+            <sys_id>bed9369cc38f12103ab798ec050131b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_393895_leave_m_0_leave_request" sys_domain="global" view="Default view">2ae409eec33212103ab798ec05013180</sys_ui_section>
+            <sys_updated_by>emily.johnson</sys_updated_by>
+            <sys_updated_on>2025-01-08 11:57:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>leave_start_date</element>
+            <position>2</position>
+            <sys_created_by>emily.johnson</sys_created_by>
+            <sys_created_on>2025-01-08 11:57:42</sys_created_on>
+            <sys_id>36d9369cc38f12103ab798ec050131b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_393895_leave_m_0_leave_request" sys_domain="global" view="Default view">2ae409eec33212103ab798ec05013180</sys_ui_section>
+            <sys_updated_by>emily.johnson</sys_updated_by>
+            <sys_updated_on>2025-01-08 11:57:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>emily.johnson</sys_created_by>
+            <sys_created_on>2025-01-08 11:57:42</sys_created_on>
+            <sys_id>bad9369cc38f12103ab798ec050131b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_393895_leave_m_0_leave_request" sys_domain="global" view="Default view">2ae409eec33212103ab798ec05013180</sys_ui_section>
+            <sys_updated_by>emily.johnson</sys_updated_by>
+            <sys_updated_on>2025-01-08 11:57:42</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>4</position>
+            <sys_created_by>emily.johnson</sys_created_by>
+            <sys_created_on>2025-01-08 11:57:42</sys_created_on>
+            <sys_id>32d9369cc38f12103ab798ec050131b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_393895_leave_m_0_leave_request" sys_domain="global" view="Default view">2ae409eec33212103ab798ec05013180</sys_ui_section>
+            <sys_updated_by>emily.johnson</sys_updated_by>
+            <sys_updated_on>2025-01-08 11:57:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by.manager</element>
+            <position>5</position>
+            <sys_created_by>emily.johnson</sys_created_by>
+            <sys_created_on>2025-01-08 11:57:42</sys_created_on>
+            <sys_id>b6d9369cc38f12103ab798ec050131b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_393895_leave_m_0_leave_request" sys_domain="global" view="Default view">2ae409eec33212103ab798ec05013180</sys_ui_section>
+            <sys_updated_by>emily.johnson</sys_updated_by>
+            <sys_updated_on>2025-01-08 11:57:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>leave_end_date</element>
+            <position>6</position>
+            <sys_created_by>emily.johnson</sys_created_by>
+            <sys_created_on>2025-01-08 11:57:42</sys_created_on>
+            <sys_id>3ed9369cc38f12103ab798ec050131b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_393895_leave_m_0_leave_request" sys_domain="global" view="Default view">2ae409eec33212103ab798ec05013180</sys_ui_section>
+            <sys_updated_by>emily.johnson</sys_updated_by>
+            <sys_updated_on>2025-01-08 11:57:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>emily.johnson</sys_created_by>
+            <sys_created_on>2025-01-08 11:57:42</sys_created_on>
+            <sys_id>b2d9369cc38f12103ab798ec050131b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_393895_leave_m_0_leave_request" sys_domain="global" view="Default view">2ae409eec33212103ab798ec05013180</sys_ui_section>
+            <sys_updated_by>emily.johnson</sys_updated_by>
+            <sys_updated_on>2025-01-08 11:57:42</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>leave_type</element>
+            <position>8</position>
+            <sys_created_by>emily.johnson</sys_created_by>
+            <sys_created_on>2025-01-08 11:57:42</sys_created_on>
+            <sys_id>3ad9369cc38f12103ab798ec050131b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_393895_leave_m_0_leave_request" sys_domain="global" view="Default view">2ae409eec33212103ab798ec05013180</sys_ui_section>
+            <sys_updated_by>emily.johnson</sys_updated_by>
+            <sys_updated_on>2025-01-08 11:57:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>justification</element>
+            <position>9</position>
+            <sys_created_by>emily.johnson</sys_created_by>
+            <sys_created_on>2025-01-08 11:57:42</sys_created_on>
+            <sys_id>bed9369cc38f12103ab798ec050131b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_393895_leave_m_0_leave_request" sys_domain="global" view="Default view">2ae409eec33212103ab798ec05013180</sys_ui_section>
+            <sys_updated_by>emily.johnson</sys_updated_by>
+            <sys_updated_on>2025-01-08 11:57:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_393895_leave_m_0_leave_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>emily.johnson</sys_created_by>
+            <sys_created_on>2025-01-02 16:57:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ae409eec33212103ab798ec05013180</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_393895_leave_m_0_leave_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Leave Management" source="x_393895_leave_m_0">c6bc38e6c33212103ab798ec05013103</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Leave Management">c6bc38e6c33212103ab798ec05013103</sys_scope>
+            <sys_update_name>sys_ui_section_2ae409eec33212103ab798ec05013180</sys_update_name>
+            <sys_updated_by>emily.johnson</sys_updated_by>
+            <sys_updated_on>2025-01-02 16:57:24</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
