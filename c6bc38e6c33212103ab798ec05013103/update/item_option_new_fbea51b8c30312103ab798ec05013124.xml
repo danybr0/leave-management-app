@@ -44,7 +44,7 @@
         <mask_use_encryption>false</mask_use_encryption>
         <name>formatter</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>100</order>
+        <order>131</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -79,14 +79,14 @@
         <sys_created_by>emily.johnson</sys_created_by>
         <sys_created_on>2025-01-09 18:19:56</sys_created_on>
         <sys_id>fbea51b8c30312103ab798ec05013124</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>formatter</sys_name>
         <sys_package display_value="Leave Management" source="x_393895_leave_m_0">c6bc38e6c33212103ab798ec05013103</sys_package>
         <sys_policy/>
         <sys_scope display_value="Leave Management">c6bc38e6c33212103ab798ec05013103</sys_scope>
         <sys_update_name>item_option_new_fbea51b8c30312103ab798ec05013124</sys_update_name>
-        <sys_updated_by>emily.johnson</sys_updated_by>
-        <sys_updated_on>2025-01-09 18:19:56</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-09 21:10:19</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
