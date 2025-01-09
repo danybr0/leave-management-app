@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="Vacation Portal">6f65863c05c3121013bf0051cc13c62e</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Login">2765863c23c312100222aa32c7ab5a58</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>emily.johnson</sys_created_by>
+        <sys_created_on>2025-01-09 21:25:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>2765863cc8c31210f6b1470357461537</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Leave Management" source="x_393895_leave_m_0">c6bc38e6c33212103ab798ec05013103</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management">c6bc38e6c33212103ab798ec05013103</sys_scope>
+        <sys_update_name>sys_ux_page_property_2765863cc8c31210f6b1470357461537</sys_update_name>
+        <sys_updated_by>emily.johnson</sys_updated_by>
+        <sys_updated_on>2025-01-09 21:25:40</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_393895_leave_m_0.6f65863c05c3121013bf0051cc13c62e.route.chrome_header.2765863c23c312100222aa32c7ab5a58</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    },&#13;
+    "publicPage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    }&#13;
+ }</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=2765863cc8c31210f6b1470357461537"/>
+</record_update>

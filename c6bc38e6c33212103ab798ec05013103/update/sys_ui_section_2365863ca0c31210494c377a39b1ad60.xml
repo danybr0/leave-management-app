@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="2365863ca0c31210494c377a39b1ad60" sys_domain="global" table="sysapproval_approver" version="3" view="custom_portal_approval_x_393895_leave_m_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>emily.johnson</sys_created_by>
+            <sys_created_on>2025-01-09 21:25:37</sys_created_on>
+            <sys_id>a765863c6dc31210aa7f9d35fd4a005f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="e365863c0ac31210cc6e1a10c74f8f5f">2365863ca0c31210494c377a39b1ad60</sys_ui_section>
+            <sys_updated_by>emily.johnson</sys_updated_by>
+            <sys_updated_on>2025-01-09 21:25:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sysapproval</element>
+            <position>1</position>
+            <sys_created_by>emily.johnson</sys_created_by>
+            <sys_created_on>2025-01-09 21:25:37</sys_created_on>
+            <sys_id>eb65863c47c31210be0876ac8bcfe55f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="e365863c0ac31210cc6e1a10c74f8f5f">2365863ca0c31210494c377a39b1ad60</sys_ui_section>
+            <sys_updated_by>emily.johnson</sys_updated_by>
+            <sys_updated_on>2025-01-09 21:25:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sysapproval_approver</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>emily.johnson</sys_created_by>
+            <sys_created_on>2025-01-09 21:25:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2365863ca0c31210494c377a39b1ad60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sysapproval_approver</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Leave Management" source="x_393895_leave_m_0">c6bc38e6c33212103ab798ec05013103</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Leave Management">c6bc38e6c33212103ab798ec05013103</sys_scope>
+            <sys_update_name>sys_ui_section_2365863ca0c31210494c377a39b1ad60</sys_update_name>
+            <sys_updated_by>emily.johnson</sys_updated_by>
+            <sys_updated_on>2025-01-09 21:25:37</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Custom portal (x_393895_leave_m_0)" name="custom_portal_approval_x_393895_leave_m_0">e365863c0ac31210cc6e1a10c74f8f5f</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
