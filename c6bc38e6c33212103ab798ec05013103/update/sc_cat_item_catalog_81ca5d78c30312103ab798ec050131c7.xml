@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Request Leave">68e79d74c30312103ab798ec0501315c</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>emily.johnson</sys_created_by>
+        <sys_created_on>2025-01-09 18:19:12</sys_created_on>
+        <sys_id>81ca5d78c30312103ab798ec050131c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Request Leave</sys_name>
+        <sys_package display_value="Leave Management" source="x_393895_leave_m_0">c6bc38e6c33212103ab798ec05013103</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management">c6bc38e6c33212103ab798ec05013103</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_81ca5d78c30312103ab798ec050131c7</sys_update_name>
+        <sys_updated_by>emily.johnson</sys_updated_by>
+        <sys_updated_on>2025-01-09 18:19:12</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>
