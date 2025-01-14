@@ -80,14 +80,7 @@
                                                     "value": null
                                                 },
                                                 "imageSrc": {
-                                                    "binding": {
-                                                        "address": [
-                                                            "user",
-                                                            "avatar"
-                                                        ],
-                                                        "category": "session"
-                                                    },
-                                                    "type": "CONTEXT_BINDING"
+                                                    "type": "JSON_LITERAL"
                                                 },
                                                 "presence": {
                                                     "type": "JSON_LITERAL",
@@ -185,7 +178,7 @@
                                                                         },
                                                                         "variant": {
                                                                             "type": "JSON_LITERAL",
-                                                                            "value": "header-secondary"
+                                                                            "value": "header-hero"
                                                                         },
                                                                         "wontWrap": {
                                                                             "type": "JSON_LITERAL",
@@ -231,7 +224,7 @@
                                                                         },
                                                                         "variant": {
                                                                             "type": "JSON_LITERAL",
-                                                                            "value": "header-secondary"
+                                                                            "value": "header-hero"
                                                                         },
                                                                         "wontWrap": {
                                                                             "type": "JSON_LITERAL",
@@ -267,7 +260,8 @@
                                                                     "styles": {
                                                                         "display": "flex",
                                                                         "flex-direction": "row",
-                                                                        "height": "100%"
+                                                                        "height": "100%",
+                                                                        "justify-content": "center"
                                                                     },
                                                                     "templateId": null,
                                                                     "type": "flex"
@@ -397,7 +391,7 @@
                                                 },
                                                 "variant": {
                                                     "type": "JSON_LITERAL",
-                                                    "value": "header-primary"
+                                                    "value": "header-hero"
                                                 },
                                                 "wontWrap": {
                                                     "type": "JSON_LITERAL",
@@ -415,7 +409,9 @@
                                             "items": [
                                                 {
                                                     "element_id": "avatar_1",
-                                                    "styles": {}
+                                                    "styles": {
+                                                        "align-self": "center"
+                                                    }
                                                 },
                                                 {
                                                     "element_id": "container_6",
@@ -499,6 +495,7 @@
                                     "grid-template-columns": "1fr",
                                     "grid-template-rows": "auto",
                                     "height": "100%",
+                                    "justify-items": "center",
                                     "margin": "auto",
                                     "max-width": "90rem"
                                 },
@@ -601,7 +598,86 @@
                     },
                     "elementId": "new_vacation",
                     "elementLabel": "New Vacation",
-                    "eventMappings": [],
+                    "eventMappings": [
+                        {
+                            "eventMappingId": "cmffvojhjjpaaddwggccahhuqffbbaxele",
+                            "isConfiguration": false,
+                            "offRowStorageId": null,
+                            "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                            "sourceEventCorrelationId": null,
+                            "sourceEventDefinition": {
+                                "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                "id": null,
+                                "type": "UXEVENT"
+                            },
+                            "sourceEventSysId": null,
+                            "targets": [
+                                {
+                                    "broker": null,
+                                    "clientScript": null,
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": {
+                                        "apiName": "x_393895_leave_m_0.NAV_ITEM_SELECTED_RELAY_6f65863ce0c31210de6d30ae0989c65e",
+                                        "payload": {
+                                            "container": {
+                                                "external": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "fields": {
+                                                    "container": {
+                                                        "sysId": {
+                                                            "type": "JSON_LITERAL",
+                                                            "value": "68e79d74c30312103ab798ec0501315c"
+                                                        }
+                                                    },
+                                                    "type": "MAP_CONTAINER"
+                                                },
+                                                "multiInstField": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "navigationOptions": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "params": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "passiveNavigation": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "redirect": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "route": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "catalog"
+                                                },
+                                                "targetRoute": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "title": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                }
+                                            },
+                                            "type": "MAP_CONTAINER"
+                                        },
+                                        "sysId": "af65863cbfc3121035e56e346ce89a3c"
+                                    },
+                                    "operation": null,
+                                    "targetId": "cmffvojhjjpaaddwhhccahhuiaiiiivhhqe",
+                                    "type": "EVENT"
+                                }
+                            ]
+                        }
+                    ],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -634,7 +710,7 @@
                         },
                         "size": {
                             "type": "JSON_LITERAL",
-                            "value": "md"
+                            "value": "lg"
                         },
                         "tooltipContent": {
                             "type": "TRANSLATION_LITERAL",
@@ -659,7 +735,51 @@
                     },
                     "elementId": "vacation_requests",
                     "elementLabel": "Vacation Requests",
-                    "eventMappings": [],
+                    "eventMappings": [
+                        {
+                            "eventMappingId": "cmffvoqmcxaaddxyccahhueesueekweebb",
+                            "isConfiguration": false,
+                            "offRowStorageId": null,
+                            "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                            "sourceEventCorrelationId": null,
+                            "sourceEventDefinition": {
+                                "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                "id": null,
+                                "type": "UXEVENT"
+                            },
+                            "sourceEventSysId": null,
+                            "targets": [
+                                {
+                                    "broker": null,
+                                    "clientScript": null,
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": {
+                                        "apiName": "x_393895_leave_m_0.NAV_ITEM_SELECTED_RELAY_6f65863ce0c31210de6d30ae0989c65e",
+                                        "payload": {
+                                            "type": "JSON_LITERAL",
+                                            "value": {
+                                                "external": null,
+                                                "fields": null,
+                                                "multiInstField": null,
+                                                "navigationOptions": null,
+                                                "params": null,
+                                                "passiveNavigation": null,
+                                                "redirect": null,
+                                                "route": "vacation-requests",
+                                                "targetRoute": null,
+                                                "title": null
+                                            }
+                                        },
+                                        "sysId": "af65863cbfc3121035e56e346ce89a3c"
+                                    },
+                                    "operation": null,
+                                    "targetId": "cmffvoqmcxaaddxzccahhuyzvsnggpj",
+                                    "type": "EVENT"
+                                }
+                            ]
+                        }
+                    ],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -692,7 +812,7 @@
                         },
                         "size": {
                             "type": "JSON_LITERAL",
-                            "value": "md"
+                            "value": "lg"
                         },
                         "tooltipContent": {
                             "type": "TRANSLATION_LITERAL",
@@ -717,7 +837,51 @@
                     },
                     "elementId": "vacation_calendar",
                     "elementLabel": "Vacation Calendar",
-                    "eventMappings": [],
+                    "eventMappings": [
+                        {
+                            "eventMappingId": "cmffvoreeelaaddydccahhuiixyaaccdffa",
+                            "isConfiguration": false,
+                            "offRowStorageId": null,
+                            "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                            "sourceEventCorrelationId": null,
+                            "sourceEventDefinition": {
+                                "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                "id": null,
+                                "type": "UXEVENT"
+                            },
+                            "sourceEventSysId": null,
+                            "targets": [
+                                {
+                                    "broker": null,
+                                    "clientScript": null,
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": {
+                                        "apiName": "x_393895_leave_m_0.NAV_ITEM_SELECTED_RELAY_6f65863ce0c31210de6d30ae0989c65e",
+                                        "payload": {
+                                            "type": "JSON_LITERAL",
+                                            "value": {
+                                                "external": null,
+                                                "fields": null,
+                                                "multiInstField": null,
+                                                "navigationOptions": null,
+                                                "params": null,
+                                                "passiveNavigation": null,
+                                                "redirect": null,
+                                                "route": "vacation-calendar",
+                                                "targetRoute": null,
+                                                "title": null
+                                            }
+                                        },
+                                        "sysId": "af65863cbfc3121035e56e346ce89a3c"
+                                    },
+                                    "operation": null,
+                                    "targetId": "cmffvoreeelaaddyeccahhueekxghbbxh",
+                                    "type": "EVENT"
+                                }
+                            ]
+                        }
+                    ],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -750,7 +914,7 @@
                         },
                         "size": {
                             "type": "JSON_LITERAL",
-                            "value": "md"
+                            "value": "lg"
                         },
                         "tooltipContent": {
                             "type": "TRANSLATION_LITERAL",
@@ -776,15 +940,21 @@
                     "items": [
                         {
                             "element_id": "new_vacation",
-                            "styles": {}
+                            "styles": {
+                                "padding-top": "var(--now-scalable-space--md)"
+                            }
                         },
                         {
                             "element_id": "vacation_requests",
-                            "styles": {}
+                            "styles": {
+                                "padding-top": "var(--now-scalable-space--md)"
+                            }
                         },
                         {
                             "element_id": "vacation_calendar",
-                            "styles": {}
+                            "styles": {
+                                "padding-top": "var(--now-scalable-space--md)"
+                            }
                         }
                     ],
                     "root": null,
@@ -796,7 +966,8 @@
                         "grid-gap": "1rem",
                         "grid-template-areas": "\"main\"",
                         "grid-template-columns": "1fr 1fr 1fr",
-                        "grid-template-rows": "auto"
+                        "grid-template-rows": "auto",
+                        "justify-items": "center"
                     },
                     "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
                     "type": "grid"
@@ -3067,9 +3238,10 @@
                 "element_id": "6e4cb126c3121010f46b42583c40dd1c_top_section",
                 "rules": {},
                 "styles": {
+                    "background": "rgb(var(--now-color_selection--primary-1))",
                     "background-color": "rgb(var(--now-color_grouped--blue-1))",
-                    "background-image": "url(x_393895_leave_m_0.custom_portal_banner.svg)",
-                    "background-position": "85% 100%",
+                    "background-image": "url()",
+                    "background-position": "center",
                     "background-repeat": "no-repeat",
                     "background-size": "820px 382px",
                     "grid-area": "row1",
@@ -3271,14 +3443,14 @@
         <sys_created_by>emily.johnson</sys_created_by>
         <sys_created_on>2025-01-09 21:25:38</sys_created_on>
         <sys_id>6f65863ce0c31210de6d30ae0989c65e</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Landing Page</sys_name>
         <sys_package display_value="Leave Management" source="x_393895_leave_m_0">c6bc38e6c33212103ab798ec05013103</sys_package>
         <sys_policy/>
         <sys_scope display_value="Leave Management">c6bc38e6c33212103ab798ec05013103</sys_scope>
         <sys_update_name>sys_ux_macroponent_6f65863ce0c31210de6d30ae0989c65e</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-12 21:29:27</sys_updated_on>
+        <sys_updated_by>emily.johnson</sys_updated_by>
+        <sys_updated_on>2025-01-13 23:45:00</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=6f65863ce0c31210de6d30ae0989c65e"/>
 </record_update>
