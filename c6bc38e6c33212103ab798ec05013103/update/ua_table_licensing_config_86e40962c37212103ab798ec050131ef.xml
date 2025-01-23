@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="INSERT_OR_UPDATE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_393895_leave_m_0_leave_request</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>emily.johnson</sys_created_by>
+        <sys_created_on>2025-01-02 16:57:22</sys_created_on>
+        <sys_id>86e40962c37212103ab798ec050131ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_393895_leave_m_0_leave_request</sys_name>
+        <sys_package display_value="Leave Management" source="x_393895_leave_m_0">c6bc38e6c33212103ab798ec05013103</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management">c6bc38e6c33212103ab798ec05013103</sys_scope>
+        <sys_update_name>ua_table_licensing_config_86e40962c37212103ab798ec050131ef</sys_update_name>
+        <sys_updated_by>emily.johnson</sys_updated_by>
+        <sys_updated_on>2025-01-02 16:57:22</sys_updated_on>
+    </ua_table_licensing_config>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_393895_leave_m_0_leave_request">x_393895_leave_m_0_leave_request</category>
+        <maximum_digits>5</maximum_digits>
+        <number>1</number>
+        <prefix>LEAVE</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>emily.johnson</sys_created_by>
+        <sys_created_on>2025-01-02 16:57:22</sys_created_on>
+        <sys_id>42e40962c37212103ab798ec050131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LEAVE</sys_name>
+        <sys_package display_value="Leave Management" source="x_393895_leave_m_0">c6bc38e6c33212103ab798ec05013103</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management">c6bc38e6c33212103ab798ec05013103</sys_scope>
+        <sys_update_name>sys_number_42e40962c37212103ab798ec050131fb</sys_update_name>
+        <sys_updated_by>emily.johnson</sys_updated_by>
+        <sys_updated_on>2025-01-02 16:57:22</sys_updated_on>
+    </sys_number>
+</record_update>
